@@ -1,0 +1,25 @@
+  125  mkdir Examen-Parra-Miguel
+  126  cd Examen-Parra-Miguel/
+  127  mkdir Hobbies "Comidas Preferidas" "Programas de Tv Favoritos" "COMANDOS UTILIZADOS"
+  128  cd Hobbies/
+  129  touch 1.txt 2.txt 3.txt
+  130  cp * ../Comidas\ Preferidas/
+  131  cp * ../Programas\ de\ Tv\ Favoritos/
+  132  cd..
+  133  cd ..
+  134  touch COMANDOS\ UTILIZADOS/command.txt
+  135  git init
+  136  git add .
+  137  git commit -m "Commit 1 de miguelParra"
+  138  git status
+  139  git log --oneline
+  140  git remote add origin https://github.com/xmiguelforero/Examen-Intro-c1-3505.git
+  141  git remove -v
+  142  git remote -v
+  143  git push origin main
+  144  git branch hotfix
+  145* git checkout
+  146  git branch
+  147  history
+  148  history 20
+  149  history 30 > COMANDOS\ UTILIZADOS/command.txt
